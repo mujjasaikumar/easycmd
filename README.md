@@ -41,17 +41,17 @@ easycmd run <shortcut_name>                 # Run the command associated with th
 
 - **Add a shortcut**:
   ```bash
-  easycmd add "build" "npm run build"
+  easycmd add build "npm run build"
   ```
 
 - **Edit a shortcut**:
   ```bash
-  easycmd edit "build"
+  easycmd edit build
   ```
 
 - **Delete a shortcut**:
   ```bash
-  easycmd delete "build"
+  easycmd delete build
   ```
 
 - **List all shortcuts**:
@@ -61,10 +61,14 @@ easycmd run <shortcut_name>                 # Run the command associated with th
 
 - **Run a shortcut**:
   ```bash
-  easycmd run "build"
+  easycmd run build
   ```
 
-## Uninstall
+- **Another way to use our EasyCMD**:
+  You can directly do
+  ```bash
+  easycmd add/edit/delete/list
+  ```
+  our EasyCMD will guide you the next steps
 
-To uninstall, simply delete the `easycmd.exe` file from your system. If you added it to your `PATH`, you can remove it manually from the environment variables.
 
